@@ -37,10 +37,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-redis-master": "src-redis-master"
+        "src-redis-v0_4_0": "src-redis-v0_4_0"
       }
     },
-    "src-redis-master": {
+    "src-redis-v0_4_0": {
       "flake": false,
       "locked": {
         "lastModified": 1655303752,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "nim-lang",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.4.0",
         "repo": "redis",
         "type": "github"
       }
